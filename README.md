@@ -1,2 +1,2 @@
-# Kaneohe
-WordPress Theme
+# Kāneʻohe
+A starting point for new adventures

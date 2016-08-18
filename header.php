@@ -21,7 +21,6 @@
 </head>
 
 <body <?php body_class(); ?>>
-
 	<?php if ( get_header_image() ) : ?>
 	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 		<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
@@ -32,6 +31,14 @@
 		<a class="skip-link screen-reader-text" href="#main"><?php esc_html_e( 'Skip to content', 'kaneohe' ); ?></a>
 	
 		<header id="masthead" class="site-header" role="banner">
+			<?php if ( function_exists('icl_object_id') ) : ?>
+			<div class="languages">
+				<div class="row">
+					<div class="small-12"><?php do_action('wpml_add_language_selector'); ?></div>
+				</div>
+			</div>
+			<?php endif; ?>
+			
 			<div class="site-branding">
 				<?php
 				if ( is_front_page() && is_home() ) : ?>

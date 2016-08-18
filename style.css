@@ -2,10 +2,11 @@
 Theme Name:  Kaneohe
 Theme URI:   https://github.com/moseley/Kaneohe
 Description: A starting point for new adventures
-Version:     1.0.2
+Version:     1.0.4
 License:     GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: kaneohe
+GitHub Theme URI: moseley/Kaneohe
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
@@ -890,3 +891,7 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/* WPML CSS */
+
+.img.icl_als_iclflag {display: none !important;}

@@ -1,0 +1,23 @@
+{
+  "name": "kaneohe",
+  "version": "1.0.0",
+  "description": "Kaneohe Theme",
+  "main": "index.js",
+  "dependencies": {
+    "foundation-sites": "^6.2.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moseley/Kaneohe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moseley/Kaneohe/issues"
+  },
+  "homepage": "https://github.com/moseley/Kaneohe"
+}

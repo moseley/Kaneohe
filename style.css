@@ -891,3 +891,7 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+/* WPML CSS */
+
+.img.icl_als_iclflag {display: none !important;}

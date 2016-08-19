@@ -1,0 +1,21 @@
+{
+  "name": "kaneohe",
+  "description": "Kaneohe Theme",
+  "main": "index.js",
+  "authors": [
+    "Jeremy Moseley <jeremymoseley@me.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/moseley/Kaneohe",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation-sites": "^6.2.3"
+  }
+}

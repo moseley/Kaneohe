@@ -4,7 +4,7 @@ Theme URI:   https://github.com/moseley/Kaneohe
 Author:      Jeremy Moseley, Brian Gunzenhauser
 Author URI:  https://github.com/moseley/Kaneohe
 Description: A starting point for new adventures
-Version:     1.0.5
+Version:     1.0.6
 License:     GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: kaneohe
@@ -20,6 +20,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
+@charset 'UTF-8';
+
 @import "partials/settings";
 @import "partials/foundation";
 @import "underscores/underscores";
